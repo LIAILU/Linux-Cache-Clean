@@ -1,0 +1,7 @@
+{
+    "name": "clearcache",
+    "version": "0.0.1",
+    "dependencies": {
+        "child_process": "^1.0.2"
+    }
+}
