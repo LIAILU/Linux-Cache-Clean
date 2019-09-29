@@ -5,8 +5,8 @@ setInterval(function(){
     for(var i=1;i<4;i++){
         exec('echo '+i+' > /proc/sys/vm/drop_caches', function (err, stdout, srderr) {
             if(err) {
-                console.log(srderr);
-            }     
+                console.log(err);
+            }
         });
     }
     console.log(ID+' '+time.toLocaleString()+' 执行清理');
